@@ -33,5 +33,12 @@
         width: 100%;
         height: pxTorem(80px);
         background: green;
+        @include box_flex;
+        @include justify(space-around);
+        @include align;
+        dl {
+            @include box-flex;
+            @include direction(column);
+        }
     }
 }
