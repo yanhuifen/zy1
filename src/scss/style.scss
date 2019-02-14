@@ -28,10 +28,23 @@
         height: 100%;
         overflow: auto;
         background: yellow;
-    }
-    footer {
         width: 100%;
-        height: pxTorem(80px);
-        background: green;
+        height: 100%;
+        overflow: auto;
     }
+    .img {
+        img {
+            width: 100%;
+            margin: pxTorem(10px) 0;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: pxTorem(80px);
+    background: green;
+}
+
+
 }
